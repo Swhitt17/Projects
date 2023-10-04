@@ -1,0 +1,31 @@
+document.getElementById("container")
+
+document.querySelector("#container")
+
+document.querySelectorAll('.second')
+
+document.querySelector('ol.third')
+
+let foundDiv = document.querySelector("#container");
+foundDiv.innerText = "Hello";
+
+const footer = document.querySelector('.footer');
+footer.classList.add('main');
+
+const footer = document.querySelector('.footer');
+footer.classList.remove('main');
+
+ let newLi = document.createElement('li');
+
+ newLi.innerText = 'four';
+
+let list = document.querySelector('ul');
+list.append(newLi);
+
+const lis = document.querySelectorAll('ol li');
+for (let li of lis){
+    lis.style.backgroundColor = "green";
+}
+
+const footer = document.querySelector('.footer');
+footer.remove();
