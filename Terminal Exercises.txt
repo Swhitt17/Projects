@@ -1,0 +1,21 @@
+mkdir first
+cd first/
+touch person.txt
+mv person.txt another.txt
+cp another.txt copy.txt
+rm copy.txt
+cp -r first second
+rmdir second
+
+
+man opens the manual for the command, yoi can scroll with enter or the arrow keys, you use q to exit
+-l gives the information for the files, -a lists all of the files
+alt + left/right
+ctrl + e
+ctrl + a
+ctrl + w
+terminal is the application that has the command line to interact with the computer, shell  is the program that does the processing of commands
+the path starting from the root directory
+the path relative to where you are
+flags are ways to change or enhance commands, ls -l, cp -r, rm -rf
+-f is for not prompting, -r is to remove directories and their contents
