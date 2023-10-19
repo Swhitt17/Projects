@@ -1,0 +1,23 @@
+git checkout -b
+fast forward merge is all of the commits can be placed chronologically, recursive merge is when the commits are not in chronological order
+git checkout
+git branch -d or git branch -D
+when commits happen in the same file from two or more different branches
+
+git checkout -b first-branch
+touch first.txt
+ git add first.txt
+ git commit -m "made first file"
+ git checkout master
+ git merge first-branch
+
+
+git checkout -b second-branch
+echo words_words_words > second.txt
+git add second.txt
+git commit -m "made second file"
+git checkout master
+echo new_text > second.txt
+git add second.txt
+git commit -m "adding second.txt to master"
+git merge second-branch
